@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gadget>
-  <name>⚠ Picture Puzzle</name>
+  <name>Picture Puzzle</name>
   <namespace><!--_locComment_text="{Locked}"-->microsoft.windows</namespace>
   <version><!--_locComment_text="{Locked}"-->1.0.0.0</version>
   <author name="Microsoft Corporation">
