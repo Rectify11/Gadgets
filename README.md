@@ -4,6 +4,8 @@ To install current version from the repo on your pc, download the repository and
 
 Official Discord community: https://discord.gg/gsgu9GCtsk
 
+Current Release: 1.9 Alpha Internal
+
 # Projects used
  - [8GadgetPack](https://8gadgetpack.net/) for the installer of Rectified Gadgets.
  - [Resource Hacker](http://www.angusj.com/resourcehacker/) for changing themes.
