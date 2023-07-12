@@ -5,11 +5,13 @@
     <!--_locComment_text="{Locked}"-->microsoft.windows
   </namespace>
   <version>
-    <!--_locComment_text="{Locked}"-->1.1.0.0
+    <!--_locComment_text="{Locked}"-->2.0
   </version>
-  <author name="Microsoft Corporation">
-  </author>
-  <copyright><!--_locComment_text="{Locked}"-->© 2023</copyright>
+    <author name="Rectify11 Team">
+        <info url="http://rectify11.net/" />
+        <logo src="logo.png" />
+    </author>
+  <copyright><!--_locComment_text="{Locked}"-->2023</copyright>
   <description>Browse the days of the calendar.</description>
   <icons>
     <icon height="48" width="48" src="icon.png"/>
