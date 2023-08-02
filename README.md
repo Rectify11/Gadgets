@@ -1,17 +1,14 @@
-# RectifyGadgetPack
-Classic Windows 7/Vista style gadgets modernized with fluent style for use in Windows 11 along with Rectify11.
-To install current version from the repo on your pc, download the repository and copy into folder, then run Install.msi from Package Folder
+# 11GadgetPack
+The next thing after 8GadgetPack. UNFINISHED AND PROTOTYPE
 
-Official Discord community: https://discord.gg/gsgu9GCtsk
-
-Current Release in the repo: 1.9 Beta 1
+Current Release in the repo: RectifyGadgets 1.9 Beta 1
 Changelog
 - Redesign visuals
 - Improve stability
 - fix bugs
 
 # Projects used
- - [8GadgetPack](https://8gadgetpack.net/) for the installer of Rectified Gadgets.
+ - [8GadgetPack](https://8gadgetpack.net/) for base.
  - [Resource Hacker](http://www.angusj.com/resourcehacker/) for changing themes.
 
 ## Previews:
