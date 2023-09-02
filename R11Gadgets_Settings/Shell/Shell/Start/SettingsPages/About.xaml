@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="Shell.Shell.Start.SettingsPages.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shell.Shell.Start.SettingsPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:system="using:System"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+     Height="770" Width="550" Background="Transparent">
+
+    <Page.Resources>
+        <Thickness x:Key="ContentUpAndDownNormalSpacing">0,12,0,12</Thickness>
+        <Thickness x:Key="ContentTopLargeSpacing">0,16,0,0</Thickness>
+        <Thickness x:Key="ContentLeftWideSpacing">36,0,0,0</Thickness>
+        <system:Double x:Key="GridWideSpacing">56</system:Double>
+        <Thickness x:Key="HyperlinkButtonMargin">-12,0,0,0</Thickness>
+        <Thickness x:Key="ContentLeftNormalSpacing">12,0,0,0</Thickness>
+        <Thickness x:Key="ContentBottomWideSpacing">0,0,0,24</Thickness>
+        <Thickness x:Key="PageWidePadding">56,24,56,0</Thickness>
+        <Thickness x:Key="ContentBottomNormalSpacing">0,0,0,8</Thickness>
+        <Thickness x:Key="ContentBottomNarrowSpacing">0,0,0,4</Thickness>
+        <Thickness x:Key="ContentBottomLargeSpacing">0,0,0,16</Thickness>
+        <Style x:Key="PageHeader" BasedOn="{StaticResource SubtitleTextBlockStyle}" TargetType="TextBlock">
+            <Setter Property="AutomationProperties.HeadingLevel" Value="Level1" />
+            <Setter Property="Margin" Value="{StaticResource ContentBottomWideSpacing}" />
+        </Style>
+        <Style x:Key="SectionHeader" BasedOn="{StaticResource BodyTextBlockStyle}" TargetType="TextBlock">
+            <Setter Property="AutomationProperties.HeadingLevel" Value="Level2" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="{StaticResource ContentBottomNarrowSpacing}" />
+        </Style>
+    </Page.Resources>
+
+
+    <StackPanel x:Name="AboutSection" Grid.Row="2" Margin="38,30,0,0">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="About this app:" VerticalAlignment="Top" FontFamily="Segoe UI Variable Text Semibold" FontSize="20" Margin="0,0,0,10"/>
+        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="RectifyGadgets Settings TBD"/>
+        <TextBlock x:Name="CopyrightText" Margin="0" Text="© 2023 Rectify11 Team. All rights reserved."/>
+        <TextBlock x:Name="PackageVersionTexts" IsTextSelectionEnabled="True" Text="DO NOT DISTRIBUTE!" FocusVisualPrimaryBrush="#E4FF0000" Foreground="Red" Margin="0,0,0,24"/>
+        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/Lixkote/RectifyGadgets" >
+            <TextBlock Text="Source Code"/>
+        </HyperlinkButton>
+
+
+        <Button x:Name="feedback" Margin="{StaticResource ContentTopLargeSpacing}" Content="Send feedback" Click="feedback_Click" />
+        <TextBlock x:Name="GithubText" Margin="0,15,0,24">
+                            To learn how you can contribute to Rectify11 and RectifyGadgets,  <LineBreak/>check out the projects on their <Hyperlink NavigateUri="https://github.com/MishaProductions/Rectify11Installer" TextDecorations="None"> GitHub</Hyperlink> page
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="Credits:" FontFamily="Segoe UI Variable Text Semibold" FontSize="20"/>
+        <TextBlock IsTextSelectionEnabled="True" Text="8GadgetPack - Helmut Buhler (Used for the base of RectifyGadgets)" Margin="0,10,0,0"/>
+        <TextBlock IsTextSelectionEnabled="True" Text="Resource Hacker -  angusj.com (Used for changing the sidebar.exe theme)" Margin="0,10,0,0"/>
+    </StackPanel>
+</Page>

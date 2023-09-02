@@ -1,0 +1,26 @@
+﻿<Page xmlns:my="using:Microsoft.UI.Xaml.Controls" 
+    x:Class="Shell.Shell.Start.SettingsPages.Themes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shell.Shell.Start.SettingsPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"     Height="770" Width="550"
+    Background="Transparent" >
+
+    <Grid>
+        <RadioButton Content="Light (Default)" Margin="38,74,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="DarkRadio" Content="Dark" Margin="38,111,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ApplyButton" Content="Apply" Margin="38,198,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Dark Mica" Margin="38,148,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,30,0,0" TextWrapping="Wrap" Text="Select a theme for the gadgets to use:" VerticalAlignment="Top" FontFamily="Segoe UI Variable Text Semibold" FontSize="20"/>
+        <my:TeachingTip x:Name="ToggleThemeTeachingTip1"
+            Target="{x:Bind ApplyButton}"
+            Title="Select a theme and click 'Apply'"
+            Subtitle="You can also change gadgets theme from the Rectify11 Control Panel.">
+            <my:TeachingTip.IconSource>
+                <my:SymbolIconSource Symbol="Emoji2" />
+            </my:TeachingTip.IconSource>
+        </my:TeachingTip>
+    </Grid>
+</Page>
