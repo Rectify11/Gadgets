@@ -13,8 +13,14 @@
 
 The same Gadget Pack which is included in Rectify11. Supports Light and Dark Themes.
 
+## Building 
+- Install latest inno setup
+- Move the GPInstallerBuilder into the C: Drive
+- Open setup.iss from the folder in inno, and build it
+
 <br/>
 
-# Projects used
- - [8GadgetPack](https://8gadgetpack.net/) for base.
+# Credits
+ - [8GadgetPack](https://8gadgetpack.net/).
+ - [GadgetsRevived](https://gadgetsrevived.com/).
  
