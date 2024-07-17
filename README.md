@@ -11,7 +11,7 @@
 
 </div>
 
-The same Gadget Pack which is included in Rectify11. Supports Light and Dark Themes.
+The same Gadget Pack which was included in Rectify11 up to V4. 
 
 ## Building 
 - Install latest inno setup
