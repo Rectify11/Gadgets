@@ -21,6 +21,6 @@ The same Gadget Pack which is included in Rectify11. Supports Light and Dark The
 <br/>
 
 # Credits
- - [8GadgetPack](https://8gadgetpack.net/).
- - [GadgetsRevived](https://gadgetsrevived.com/).
+ - [8GadgetPack](https://8gadgetpack.net/)
+ - [GadgetsRevived](https://gadgetsrevived.com/)
  
